@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 features = "src/test/resources/features",
         glue = "steps",
         tags = "@Contactusverify",
-        plugin = {"pretty",
+        plugin = {"pretty","html:test-output/cucumber-reports/cucumberreport.html",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         }
 
