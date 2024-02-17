@@ -9,7 +9,9 @@ import org.junit.runner.RunWith;
 features = "src/test/resources/features",
         glue = "steps",
         tags = "@Contactusverify",
-        plugin = {"pretty"}
+        plugin = {"pretty",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+        }
 
 )
 public class MyRunners {
