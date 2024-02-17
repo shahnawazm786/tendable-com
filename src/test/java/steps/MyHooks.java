@@ -24,7 +24,7 @@ public class MyHooks {
         if(scenario.isFailed()){
 
         }
-   //driver.quit();
+   driver.quit();
     }
 
 }
