@@ -3,6 +3,8 @@ package steps;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -21,10 +23,11 @@ public class MyHooks {
     }
     @After
     public void clearSetup(Scenario scenario){
-        if(scenario.isFailed()){
-
+        if(scenario.isFailed()) {
+            final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshot, "image/png", scenario.getName());
         }
-   driver.quit();
+        driver.quit();
     }
 
 }
