@@ -16,5 +16,10 @@ This project developed using following technology
  When user has entered all the mandatory field on submit user get success result, it is also verified
  All the input data and error message passed in scenario outline
 
+I have added the extend report, when failure occured framework capture screenshot and added into the report. for easiness of error finding
+The report has complete summary and details in right panel. 
+Any one can verify the failure and sucess of the Test case.
+I have created html report as well pdf report, so that pdf report can be emailed to the reporting manager
+
  Thanks
  
