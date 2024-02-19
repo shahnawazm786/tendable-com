@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 import utils.SeleniumCommonFunction;
 import static org.junit.Assert.*;
 public class ContactusPage {
@@ -85,12 +86,15 @@ public class ContactusPage {
         SeleniumCommonFunction.SendKeys(contact_us_form_input_email_text_box_id,email);
     }
     public void enterJob(){
-        SeleniumCommonFunction.ScrollToElement(driver,contact_us_form_input_job_role_text_box_id);
         SeleniumCommonFunction.WaitElement(driver,contact_us_form_input_job_role_text_box_id,20);
-        SeleniumCommonFunction.Click(contact_us_form_input_job_role_text_box_id);
+        SeleniumCommonFunction.ScrollToElement(driver,contact_us_form_input_job_role_text_box_id);
+        /*SeleniumCommonFunction.Click(contact_us_form_input_job_role_text_box_id);
         SeleniumCommonFunction.ScrollToElement(driver,contact_us_form_input_job_role_executive_board_member_xpath);
         SeleniumCommonFunction.WaitElement(driver,contact_us_form_input_job_role_executive_board_member_xpath,20);
-        SeleniumCommonFunction.Click(contact_us_form_input_job_role_executive_board_member_xpath);
+        SeleniumCommonFunction.Click(contact_us_form_input_job_role_executive_board_member_xpath);*/
+        //Select select=new Select(contact_us_form_input_job_role_text_box_id);
+        SeleniumCommonFunction.Selects(contact_us_form_input_job_role_text_box_id);
+
     }
     public void enterAddress(String address){
         SeleniumCommonFunction.ScrollToElement(driver,contact_us_form_input_submit_button_xpath);
