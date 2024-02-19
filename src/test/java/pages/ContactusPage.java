@@ -106,7 +106,7 @@ public class ContactusPage {
     }
     public void clickOnSubmit(){
         SeleniumCommonFunction.WaitElement(driver,contact_us_form_input_submit_button_xpath,20);
-
+        SeleniumCommonFunction.ScrollToElement(driver,contact_us_form_input_submit_button_xpath);
         SeleniumCommonFunction.Click(contact_us_form_input_submit_button_xpath);
     }
     public void verifyErrorMessage(String error){
