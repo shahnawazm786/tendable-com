@@ -93,7 +93,8 @@ public class ContactusPage {
         SeleniumCommonFunction.WaitElement(driver,contact_us_form_input_job_role_executive_board_member_xpath,20);
         SeleniumCommonFunction.Click(contact_us_form_input_job_role_executive_board_member_xpath);*/
         //Select select=new Select(contact_us_form_input_job_role_text_box_id);
-        SeleniumCommonFunction.Selects(contact_us_form_input_job_role_text_box_id);
+        Select select = SeleniumCommonFunction.Selects(contact_us_form_input_job_role_text_box_id);
+        SeleniumCommonFunction.SelectByVisibleText(select,"Executive Board Member");
 
     }
     public void enterAddress(String address){
