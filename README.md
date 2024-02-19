@@ -1,5 +1,7 @@
-This project is for assessment test
-This project developed using following technology
+
+**This project is for assessment test**
+
+**This project developed using following technology**
 
 * **Java-17**
 * **Selenium 4.17.0**
