@@ -50,7 +50,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Feb 17, 2024 03:52:25 pm</span>
+			<span class='label blue darken-3 suite-start-time'>Feb 19, 2024 11:38:22 am</span>
 			</a>
 		</ul>
 	</div>
@@ -138,12 +138,12 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='85%'>
-                    <span class='strong'>6</span> scenarios passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='0%'>
+                    <span class='strong'>0</span> scenarios passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='14%'>
-                    1</span> scenarios failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>
+                    7</span> scenarios failed, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
                     0</span> skipped, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
@@ -158,14 +158,14 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='98%'>
-                    <span class='strong'>91</span> steps passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='64%'>
+                    <span class='strong'>63</span> steps passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='1%'>
-                    1</span> steps failed, 
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
-                    0</span> skipped, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='7%'>
+                    7</span> steps failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='28%'>
+                    28</span> skipped, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
                     0</span> others
                 </div>
@@ -189,7 +189,7 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Contact us feature verification</span>
-						<span class='test-time'>Feb 17, 2024 03:52:25 pm</span>
+						<span class='test-time'>Feb 19, 2024 11:38:23 am</span>
 						<span class='test-status right fail'>Fail</span>
 					</div>
 					<div class='test-content hide'>
@@ -202,7 +202,7 @@
 
 <div class='scenario outline node' test-id='2' status='fail'>
 
-	<span class='duration right label'>00 01 58.380</span>
+	<span class='duration right label'>00 00 54.396</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario Outline: Contact us</div>
 	</div>
@@ -211,8 +211,8 @@
 	
 	
 	<ul class='steps'>
-		<li test-id='3' class='node scenario Pass' status='Pass'>
-			<div class="step-name" title="()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Contact us</div>
+		<li test-id='3' class='node scenario Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Contact us</div>
 
 				<div class='category-list'>
 						<span class='category label'>@Contactusverify</span>
@@ -252,30 +252,69 @@
 					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterEmailInEmailTextBox(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter 'john@gmail.com' in email text box</h6>
 
 				</li>
-				<li test-id='13' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterJobRole()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter job role</h6>
+				<li test-id='13' class='gc and Fail' status='Fail'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterJobRole()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>And user enter job role</h6>
 
+							<textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLOptionElement] has no size and location
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07b37d7459e9186235b0f93e7c7eab0c, actions {actions=[org.openqa.selenium.interactions.Sequence@44f24a20]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\shahn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55197/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07b37d7459e9186235b0f93e7c7eab0c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at utils.SeleniumCommonFunction.ScrollToElement(SeleniumCommonFunction.java:49)
+	at pages.ContactusPage.enterJob(ContactusPage.java:91)
+	at steps.ContactusPageSteps.userEnterJobRole(ContactusPageSteps.java:47)
+	at ✽.user enter job role(file:///C:/tendable-com/src/test/resources/features/contactus.feature:13)
+</textarea>
 				</li>
-				<li test-id='14' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterMessageInTextArea(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter '1234-A, Mumbai' in text area</h6>
+				<li test-id='14' class='gc and Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterMessageInTextArea(java.lang.String)"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And user enter '1234-A, Mumbai' in text area</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='15' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.selectTheAgreementRadio()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Select the agreement radio</h6>
+				<li test-id='15' class='gc and Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.selectTheAgreementRadio()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And Select the agreement radio</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='16' class='gc when Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.clickOnSubmitButton()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When click on submit button</h6>
+				<li test-id='16' class='gc when Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.clickOnSubmitButton()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When click on submit button</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='17' class='gc then Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then verify the 'Form has been submitted successfully!' in error message area</h6>
+				<li test-id='17' class='gc then Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(java.lang.String)"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then verify the 'Form has been submitted successfully!' in error message area</h6>
 
+							<div class="node-step">Step skipped</div>
+				</li>
+				<li test-id='18' class='gc * Pass' status='Pass'>
+					<h6 class="step-name" title="AFTER"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>steps.MyHooks.clearSetup(io.cucumber.java.Scenario)</h6>
+
+							<div class="node-step">Contact us</div>
+							<div class='screenshots'>
+								<img width='80' height='40' onerror='this.style.display="none"' data-featherlight='../test-output/Screenshots/embedded1.png' src='../test-output/Screenshots/embedded1.png'>
+							</div>
 				</li>
 			</ul>
 		</li>
-		<li test-id='19' class='node scenario Pass' status='Pass'>
-			<div class="step-name" title="()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Contact us</div>
+		<li test-id='19' class='node scenario Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Contact us</div>
 
 				<div class='category-list'>
 						<span class='category label'>@Contactusverify</span>
@@ -315,30 +354,69 @@
 					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterEmailInEmailTextBox(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter 'jenny@yahoo.com' in email text box</h6>
 
 				</li>
-				<li test-id='29' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterJobRole()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter job role</h6>
+				<li test-id='29' class='gc and Fail' status='Fail'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterJobRole()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>And user enter job role</h6>
 
+							<textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLOptionElement] has no size and location
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1f8ee0b886e7e454c85c65c13469783, actions {actions=[org.openqa.selenium.interactions.Sequence@b3e86d5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\shahn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55258}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55258/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d1f8ee0b886e7e454c85c65c13469783
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at utils.SeleniumCommonFunction.ScrollToElement(SeleniumCommonFunction.java:49)
+	at pages.ContactusPage.enterJob(ContactusPage.java:91)
+	at steps.ContactusPageSteps.userEnterJobRole(ContactusPageSteps.java:47)
+	at ✽.user enter job role(file:///C:/tendable-com/src/test/resources/features/contactus.feature:13)
+</textarea>
 				</li>
-				<li test-id='30' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterMessageInTextArea(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter '' in text area</h6>
+				<li test-id='30' class='gc and Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterMessageInTextArea(java.lang.String)"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And user enter '' in text area</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='31' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.selectTheAgreementRadio()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Select the agreement radio</h6>
+				<li test-id='31' class='gc and Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.selectTheAgreementRadio()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And Select the agreement radio</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='32' class='gc when Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.clickOnSubmitButton()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When click on submit button</h6>
+				<li test-id='32' class='gc when Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.clickOnSubmitButton()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When click on submit button</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='33' class='gc then Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then verify the 'Sorry, there was an error submitting the form. Please try again.' in error message area</h6>
+				<li test-id='33' class='gc then Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(java.lang.String)"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then verify the 'Sorry, there was an error submitting the form. Please try again.' in error message area</h6>
 
+							<div class="node-step">Step skipped</div>
+				</li>
+				<li test-id='34' class='gc * Pass' status='Pass'>
+					<h6 class="step-name" title="AFTER"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>steps.MyHooks.clearSetup(io.cucumber.java.Scenario)</h6>
+
+							<div class="node-step">Contact us</div>
+							<div class='screenshots'>
+								<img width='80' height='40' onerror='this.style.display="none"' data-featherlight='../test-output/Screenshots/embedded2.png' src='../test-output/Screenshots/embedded2.png'>
+							</div>
 				</li>
 			</ul>
 		</li>
-		<li test-id='35' class='node scenario Pass' status='Pass'>
-			<div class="step-name" title="()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Contact us</div>
+		<li test-id='35' class='node scenario Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Contact us</div>
 
 				<div class='category-list'>
 						<span class='category label'>@Contactusverify</span>
@@ -378,30 +456,69 @@
 					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterEmailInEmailTextBox(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter '' in email text box</h6>
 
 				</li>
-				<li test-id='45' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterJobRole()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter job role</h6>
+				<li test-id='45' class='gc and Fail' status='Fail'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterJobRole()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>And user enter job role</h6>
 
+							<textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLOptionElement] has no size and location
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b846b6448fbb1f281018a8fb43159db1, actions {actions=[org.openqa.selenium.interactions.Sequence@3fde8f7c]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\shahn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55311}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55311/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b846b6448fbb1f281018a8fb43159db1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at utils.SeleniumCommonFunction.ScrollToElement(SeleniumCommonFunction.java:49)
+	at pages.ContactusPage.enterJob(ContactusPage.java:91)
+	at steps.ContactusPageSteps.userEnterJobRole(ContactusPageSteps.java:47)
+	at ✽.user enter job role(file:///C:/tendable-com/src/test/resources/features/contactus.feature:13)
+</textarea>
 				</li>
-				<li test-id='46' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterMessageInTextArea(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter '' in text area</h6>
+				<li test-id='46' class='gc and Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterMessageInTextArea(java.lang.String)"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And user enter '' in text area</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='47' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.selectTheAgreementRadio()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Select the agreement radio</h6>
+				<li test-id='47' class='gc and Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.selectTheAgreementRadio()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And Select the agreement radio</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='48' class='gc when Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.clickOnSubmitButton()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When click on submit button</h6>
+				<li test-id='48' class='gc when Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.clickOnSubmitButton()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When click on submit button</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='49' class='gc then Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then verify the 'Sorry, there was an error submitting the form. Please try again.' in error message area</h6>
+				<li test-id='49' class='gc then Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(java.lang.String)"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then verify the 'Sorry, there was an error submitting the form. Please try again.' in error message area</h6>
 
+							<div class="node-step">Step skipped</div>
+				</li>
+				<li test-id='50' class='gc * Pass' status='Pass'>
+					<h6 class="step-name" title="AFTER"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>steps.MyHooks.clearSetup(io.cucumber.java.Scenario)</h6>
+
+							<div class="node-step">Contact us</div>
+							<div class='screenshots'>
+								<img width='80' height='40' onerror='this.style.display="none"' data-featherlight='../test-output/Screenshots/embedded3.png' src='../test-output/Screenshots/embedded3.png'>
+							</div>
 				</li>
 			</ul>
 		</li>
-		<li test-id='51' class='node scenario Pass' status='Pass'>
-			<div class="step-name" title="()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Contact us</div>
+		<li test-id='51' class='node scenario Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Contact us</div>
 
 				<div class='category-list'>
 						<span class='category label'>@Contactusverify</span>
@@ -441,30 +558,69 @@
 					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterEmailInEmailTextBox(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter '' in email text box</h6>
 
 				</li>
-				<li test-id='61' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterJobRole()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter job role</h6>
+				<li test-id='61' class='gc and Fail' status='Fail'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterJobRole()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>And user enter job role</h6>
 
+							<textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLOptionElement] has no size and location
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09ad4280ba8be1392617e479cc979a04, actions {actions=[org.openqa.selenium.interactions.Sequence@2c6c302f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\shahn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55365/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09ad4280ba8be1392617e479cc979a04
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at utils.SeleniumCommonFunction.ScrollToElement(SeleniumCommonFunction.java:49)
+	at pages.ContactusPage.enterJob(ContactusPage.java:91)
+	at steps.ContactusPageSteps.userEnterJobRole(ContactusPageSteps.java:47)
+	at ✽.user enter job role(file:///C:/tendable-com/src/test/resources/features/contactus.feature:13)
+</textarea>
 				</li>
-				<li test-id='62' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterMessageInTextArea(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter '' in text area</h6>
+				<li test-id='62' class='gc and Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterMessageInTextArea(java.lang.String)"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And user enter '' in text area</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='63' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.selectTheAgreementRadio()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Select the agreement radio</h6>
+				<li test-id='63' class='gc and Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.selectTheAgreementRadio()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And Select the agreement radio</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='64' class='gc when Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.clickOnSubmitButton()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When click on submit button</h6>
+				<li test-id='64' class='gc when Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.clickOnSubmitButton()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When click on submit button</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='65' class='gc then Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then verify the 'Sorry, there was an error submitting the form. Please try again.' in error message area</h6>
+				<li test-id='65' class='gc then Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(java.lang.String)"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then verify the 'Sorry, there was an error submitting the form. Please try again.' in error message area</h6>
 
+							<div class="node-step">Step skipped</div>
+				</li>
+				<li test-id='66' class='gc * Pass' status='Pass'>
+					<h6 class="step-name" title="AFTER"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>steps.MyHooks.clearSetup(io.cucumber.java.Scenario)</h6>
+
+							<div class="node-step">Contact us</div>
+							<div class='screenshots'>
+								<img width='80' height='40' onerror='this.style.display="none"' data-featherlight='../test-output/Screenshots/embedded4.png' src='../test-output/Screenshots/embedded4.png'>
+							</div>
 				</li>
 			</ul>
 		</li>
-		<li test-id='67' class='node scenario Pass' status='Pass'>
-			<div class="step-name" title="()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Contact us</div>
+		<li test-id='67' class='node scenario Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Contact us</div>
 
 				<div class='category-list'>
 						<span class='category label'>@Contactusverify</span>
@@ -504,30 +660,69 @@
 					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterEmailInEmailTextBox(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter '' in email text box</h6>
 
 				</li>
-				<li test-id='77' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterJobRole()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter job role</h6>
+				<li test-id='77' class='gc and Fail' status='Fail'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterJobRole()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>And user enter job role</h6>
 
+							<textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLOptionElement] has no size and location
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a808fdaa6b541d221e474ab1d173573f, actions {actions=[org.openqa.selenium.interactions.Sequence@34aa8b61]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\shahn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55419}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55419/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a808fdaa6b541d221e474ab1d173573f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at utils.SeleniumCommonFunction.ScrollToElement(SeleniumCommonFunction.java:49)
+	at pages.ContactusPage.enterJob(ContactusPage.java:91)
+	at steps.ContactusPageSteps.userEnterJobRole(ContactusPageSteps.java:47)
+	at ✽.user enter job role(file:///C:/tendable-com/src/test/resources/features/contactus.feature:13)
+</textarea>
 				</li>
-				<li test-id='78' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterMessageInTextArea(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter '' in text area</h6>
+				<li test-id='78' class='gc and Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterMessageInTextArea(java.lang.String)"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And user enter '' in text area</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='79' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.selectTheAgreementRadio()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Select the agreement radio</h6>
+				<li test-id='79' class='gc and Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.selectTheAgreementRadio()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And Select the agreement radio</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='80' class='gc when Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.clickOnSubmitButton()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When click on submit button</h6>
+				<li test-id='80' class='gc when Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.clickOnSubmitButton()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When click on submit button</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='81' class='gc then Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then verify the 'Sorry, there was an error submitting the form. Please try again.' in error message area</h6>
+				<li test-id='81' class='gc then Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(java.lang.String)"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then verify the 'Sorry, there was an error submitting the form. Please try again.' in error message area</h6>
 
+							<div class="node-step">Step skipped</div>
+				</li>
+				<li test-id='82' class='gc * Pass' status='Pass'>
+					<h6 class="step-name" title="AFTER"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>steps.MyHooks.clearSetup(io.cucumber.java.Scenario)</h6>
+
+							<div class="node-step">Contact us</div>
+							<div class='screenshots'>
+								<img width='80' height='40' onerror='this.style.display="none"' data-featherlight='../test-output/Screenshots/embedded5.png' src='../test-output/Screenshots/embedded5.png'>
+							</div>
 				</li>
 			</ul>
 		</li>
-		<li test-id='83' class='node scenario Pass' status='Pass'>
-			<div class="step-name" title="()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Contact us</div>
+		<li test-id='83' class='node scenario Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Contact us</div>
 
 				<div class='category-list'>
 						<span class='category label'>@Contactusverify</span>
@@ -567,25 +762,64 @@
 					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterEmailInEmailTextBox(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter '' in email text box</h6>
 
 				</li>
-				<li test-id='93' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterJobRole()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter job role</h6>
+				<li test-id='93' class='gc and Fail' status='Fail'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterJobRole()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>And user enter job role</h6>
 
+							<textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLOptionElement] has no size and location
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [48ef2b61441c2a928cbcb80c462b405e, actions {actions=[org.openqa.selenium.interactions.Sequence@2e3cd732]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\shahn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55472}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55472/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 48ef2b61441c2a928cbcb80c462b405e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at utils.SeleniumCommonFunction.ScrollToElement(SeleniumCommonFunction.java:49)
+	at pages.ContactusPage.enterJob(ContactusPage.java:91)
+	at steps.ContactusPageSteps.userEnterJobRole(ContactusPageSteps.java:47)
+	at ✽.user enter job role(file:///C:/tendable-com/src/test/resources/features/contactus.feature:13)
+</textarea>
 				</li>
-				<li test-id='94' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterMessageInTextArea(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter '' in text area</h6>
+				<li test-id='94' class='gc and Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterMessageInTextArea(java.lang.String)"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And user enter '' in text area</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='95' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.selectTheAgreementRadio()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Select the agreement radio</h6>
+				<li test-id='95' class='gc and Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.selectTheAgreementRadio()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And Select the agreement radio</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='96' class='gc when Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.clickOnSubmitButton()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When click on submit button</h6>
+				<li test-id='96' class='gc when Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.clickOnSubmitButton()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When click on submit button</h6>
 
+							<div class="node-step">Step skipped</div>
 				</li>
-				<li test-id='97' class='gc then Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then verify the 'Sorry, there was an error submitting the form. Please try again.' in error message area</h6>
+				<li test-id='97' class='gc then Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(java.lang.String)"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then verify the 'Sorry, there was an error submitting the form. Please try again.' in error message area</h6>
 
+							<div class="node-step">Step skipped</div>
+				</li>
+				<li test-id='98' class='gc * Pass' status='Pass'>
+					<h6 class="step-name" title="AFTER"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>steps.MyHooks.clearSetup(io.cucumber.java.Scenario)</h6>
+
+							<div class="node-step">Contact us</div>
+							<div class='screenshots'>
+								<img width='80' height='40' onerror='this.style.display="none"' data-featherlight='../test-output/Screenshots/embedded6.png' src='../test-output/Screenshots/embedded6.png'>
+							</div>
 				</li>
 			</ul>
 		</li>
@@ -630,39 +864,63 @@
 					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterEmailInEmailTextBox(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter 'john@gmail.com' in email text box</h6>
 
 				</li>
-				<li test-id='109' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterJobRole()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter job role</h6>
+				<li test-id='109' class='gc and Fail' status='Fail'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterJobRole()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>And user enter job role</h6>
 
-				</li>
-				<li test-id='110' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterMessageInTextArea(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter '1234-A, Mumbai' in text area</h6>
-
-				</li>
-				<li test-id='111' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.selectTheAgreementRadio()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Select the agreement radio</h6>
-
-				</li>
-				<li test-id='112' class='gc when Pass' status='Pass'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.clickOnSubmitButton()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When click on submit button</h6>
-
-				</li>
-				<li test-id='113' class='gc then Fail' status='Fail'>
-					<h6 class="step-name" title="steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(java.lang.String)"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Then verify the 'No data found' in error message area</h6>
-
-							<textarea disabled class="code-block">org.junit.ComparisonFailure: expected:<[No data found]> but was:<[Form has been submitted successfully!]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at pages.ContactusPage.verifyErrorMessage(ContactusPage.java:118)
-	at steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(ContactusPageSteps.java:67)
-	at ✽.verify the 'No data found' in error message area(file:///C:/tendable-com/src/test/resources/features/contactus.feature:17)
+							<textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLOptionElement] has no size and location
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d89d1e6a7a5c4ed8215760d34e07cf8b, actions {actions=[org.openqa.selenium.interactions.Sequence@4fea5ee0]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\shahn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55525}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55525/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d89d1e6a7a5c4ed8215760d34e07cf8b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at utils.SeleniumCommonFunction.ScrollToElement(SeleniumCommonFunction.java:49)
+	at pages.ContactusPage.enterJob(ContactusPage.java:91)
+	at steps.ContactusPageSteps.userEnterJobRole(ContactusPageSteps.java:47)
+	at ✽.user enter job role(file:///C:/tendable-com/src/test/resources/features/contactus.feature:13)
 </textarea>
+				</li>
+				<li test-id='110' class='gc and Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.userEnterMessageInTextArea(java.lang.String)"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And user enter '1234-A, Mumbai' in text area</h6>
+
+							<div class="node-step">Step skipped</div>
+				</li>
+				<li test-id='111' class='gc and Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.selectTheAgreementRadio()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And Select the agreement radio</h6>
+
+							<div class="node-step">Step skipped</div>
+				</li>
+				<li test-id='112' class='gc when Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.clickOnSubmitButton()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When click on submit button</h6>
+
+							<div class="node-step">Step skipped</div>
+				</li>
+				<li test-id='113' class='gc then Skip' status='Skip'>
+					<h6 class="step-name" title="steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(java.lang.String)"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then verify the 'No data found' in error message area</h6>
+
+							<div class="node-step">Step skipped</div>
 				</li>
 				<li test-id='114' class='gc * Pass' status='Pass'>
 					<h6 class="step-name" title="AFTER"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>steps.MyHooks.clearSetup(io.cucumber.java.Scenario)</h6>
 
 							<div class="node-step">Contact us</div>
 							<div class='screenshots'>
-								<img width='80' height='40' onerror='this.style.display="none"' data-featherlight='../test-output/Screenshots/embedded1.png' src='../test-output/Screenshots/embedded1.png'>
+								<img width='80' height='40' onerror='this.style.display="none"' data-featherlight='../test-output/Screenshots/embedded7.png' src='../test-output/Screenshots/embedded7.png'>
 							</div>
 				</li>
 			</ul>
@@ -715,14 +973,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@Contactusverify</span>
 						<span class='category-status right'>
-						<span class='label pass'>6</span>
-						<span class='label fail'>1</span>
+						<span class='label fail'>7</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 6</span>
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 7</span>
 							
 						</div>
 						<div class='category-tests'>
@@ -736,37 +993,37 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 17, 2024 03:52:25 pm</td>
+										<td>Feb 19, 2024 11:38:23 am</td>
 										<td class='linked' test-id='3'>Contact us</td>
-										<td><span class='test-status Pass'>Pass</span></td>
+										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2024 03:52:38 pm</td>
+										<td>Feb 19, 2024 11:38:32 am</td>
 										<td class='linked' test-id='19'>Contact us</td>
-										<td><span class='test-status Pass'>Pass</span></td>
+										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2024 03:52:49 pm</td>
+										<td>Feb 19, 2024 11:38:41 am</td>
 										<td class='linked' test-id='35'>Contact us</td>
-										<td><span class='test-status Pass'>Pass</span></td>
+										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2024 03:53:00 pm</td>
+										<td>Feb 19, 2024 11:38:48 am</td>
 										<td class='linked' test-id='51'>Contact us</td>
-										<td><span class='test-status Pass'>Pass</span></td>
+										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2024 03:53:24 pm</td>
+										<td>Feb 19, 2024 11:38:56 am</td>
 										<td class='linked' test-id='67'>Contact us</td>
-										<td><span class='test-status Pass'>Pass</span></td>
+										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2024 03:53:35 pm</td>
+										<td>Feb 19, 2024 11:39:03 am</td>
 										<td class='linked' test-id='83'>Contact us</td>
-										<td><span class='test-status Pass'>Pass</span></td>
+										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2024 03:53:57 pm</td>
+										<td>Feb 19, 2024 11:39:09 am</td>
 										<td class='linked' test-id='99'>Contact us</td>
 										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
@@ -779,14 +1036,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@Contactus</span>
 						<span class='category-status right'>
-						<span class='label pass'>6</span>
-						<span class='label fail'>1</span>
+						<span class='label fail'>7</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 6</span>
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 7</span>
 							
 						</div>
 						<div class='category-tests'>
@@ -800,37 +1056,37 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 17, 2024 03:52:25 pm</td>
+										<td>Feb 19, 2024 11:38:23 am</td>
 										<td class='linked' test-id='3'>Contact us</td>
-										<td><span class='test-status Pass'>Pass</span></td>
+										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2024 03:52:38 pm</td>
+										<td>Feb 19, 2024 11:38:32 am</td>
 										<td class='linked' test-id='19'>Contact us</td>
-										<td><span class='test-status Pass'>Pass</span></td>
+										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2024 03:52:49 pm</td>
+										<td>Feb 19, 2024 11:38:41 am</td>
 										<td class='linked' test-id='35'>Contact us</td>
-										<td><span class='test-status Pass'>Pass</span></td>
+										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2024 03:53:00 pm</td>
+										<td>Feb 19, 2024 11:38:48 am</td>
 										<td class='linked' test-id='51'>Contact us</td>
-										<td><span class='test-status Pass'>Pass</span></td>
+										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2024 03:53:24 pm</td>
+										<td>Feb 19, 2024 11:38:56 am</td>
 										<td class='linked' test-id='67'>Contact us</td>
-										<td><span class='test-status Pass'>Pass</span></td>
+										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2024 03:53:35 pm</td>
+										<td>Feb 19, 2024 11:39:03 am</td>
 										<td class='linked' test-id='83'>Contact us</td>
-										<td><span class='test-status Pass'>Pass</span></td>
+										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2024 03:53:57 pm</td>
+										<td>Feb 19, 2024 11:39:09 am</td>
 										<td class='linked' test-id='99'>Contact us</td>
 										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
@@ -868,8 +1124,8 @@
 			<ul id='exception-collection' class='exception-collection'>
 				<li class='exception displayed active'>
 					<div class='exception-heading'>
-						<span class='exception-name'>org.junit.ComparisonFailure</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+						<span class='exception-name'>org.openqa.selenium.ElementNotInteractableException</span>
+						<span class='exception-count right'><span class='label red lighten-1 white-text'>7</span></span>
 					</div>
 					<div class='exception-content hide'>
 						<div class='exception-tests'>
@@ -883,15 +1139,233 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 17, 2024 03:54:13 pm</td>
-										<td class='linked' test-id='113'>Then verify the 'No data found' in error message area</td>
+										<td>Feb 19, 2024 11:38:32 am</td>
+										<td class='linked' test-id='13'>And user enter job role</td>
 										<td>
-											<textarea disabled class="code-block">org.junit.ComparisonFailure: expected:<[No data found]> but was:<[Form has been submitted successfully!]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at pages.ContactusPage.verifyErrorMessage(ContactusPage.java:118)
-	at steps.ContactusPageSteps.verifyTheMessageInErrorMessageArea(ContactusPageSteps.java:67)
-	at ✽.verify the 'No data found' in error message area(file:///C:/tendable-com/src/test/resources/features/contactus.feature:17)
+											<textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLOptionElement] has no size and location
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07b37d7459e9186235b0f93e7c7eab0c, actions {actions=[org.openqa.selenium.interactions.Sequence@44f24a20]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\shahn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55197/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07b37d7459e9186235b0f93e7c7eab0c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at utils.SeleniumCommonFunction.ScrollToElement(SeleniumCommonFunction.java:49)
+	at pages.ContactusPage.enterJob(ContactusPage.java:91)
+	at steps.ContactusPageSteps.userEnterJobRole(ContactusPageSteps.java:47)
+	at ✽.user enter job role(file:///C:/tendable-com/src/test/resources/features/contactus.feature:13)
+</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>Feb 19, 2024 11:38:40 am</td>
+										<td class='linked' test-id='29'>And user enter job role</td>
+										<td>
+											<textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLOptionElement] has no size and location
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07b37d7459e9186235b0f93e7c7eab0c, actions {actions=[org.openqa.selenium.interactions.Sequence@44f24a20]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\shahn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55197/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07b37d7459e9186235b0f93e7c7eab0c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at utils.SeleniumCommonFunction.ScrollToElement(SeleniumCommonFunction.java:49)
+	at pages.ContactusPage.enterJob(ContactusPage.java:91)
+	at steps.ContactusPageSteps.userEnterJobRole(ContactusPageSteps.java:47)
+	at ✽.user enter job role(file:///C:/tendable-com/src/test/resources/features/contactus.feature:13)
+</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>Feb 19, 2024 11:38:48 am</td>
+										<td class='linked' test-id='45'>And user enter job role</td>
+										<td>
+											<textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLOptionElement] has no size and location
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07b37d7459e9186235b0f93e7c7eab0c, actions {actions=[org.openqa.selenium.interactions.Sequence@44f24a20]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\shahn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55197/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07b37d7459e9186235b0f93e7c7eab0c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at utils.SeleniumCommonFunction.ScrollToElement(SeleniumCommonFunction.java:49)
+	at pages.ContactusPage.enterJob(ContactusPage.java:91)
+	at steps.ContactusPageSteps.userEnterJobRole(ContactusPageSteps.java:47)
+	at ✽.user enter job role(file:///C:/tendable-com/src/test/resources/features/contactus.feature:13)
+</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>Feb 19, 2024 11:38:55 am</td>
+										<td class='linked' test-id='61'>And user enter job role</td>
+										<td>
+											<textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLOptionElement] has no size and location
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07b37d7459e9186235b0f93e7c7eab0c, actions {actions=[org.openqa.selenium.interactions.Sequence@44f24a20]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\shahn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55197/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07b37d7459e9186235b0f93e7c7eab0c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at utils.SeleniumCommonFunction.ScrollToElement(SeleniumCommonFunction.java:49)
+	at pages.ContactusPage.enterJob(ContactusPage.java:91)
+	at steps.ContactusPageSteps.userEnterJobRole(ContactusPageSteps.java:47)
+	at ✽.user enter job role(file:///C:/tendable-com/src/test/resources/features/contactus.feature:13)
+</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>Feb 19, 2024 11:39:02 am</td>
+										<td class='linked' test-id='77'>And user enter job role</td>
+										<td>
+											<textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLOptionElement] has no size and location
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07b37d7459e9186235b0f93e7c7eab0c, actions {actions=[org.openqa.selenium.interactions.Sequence@44f24a20]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\shahn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55197/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07b37d7459e9186235b0f93e7c7eab0c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at utils.SeleniumCommonFunction.ScrollToElement(SeleniumCommonFunction.java:49)
+	at pages.ContactusPage.enterJob(ContactusPage.java:91)
+	at steps.ContactusPageSteps.userEnterJobRole(ContactusPageSteps.java:47)
+	at ✽.user enter job role(file:///C:/tendable-com/src/test/resources/features/contactus.feature:13)
+</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>Feb 19, 2024 11:39:09 am</td>
+										<td class='linked' test-id='93'>And user enter job role</td>
+										<td>
+											<textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLOptionElement] has no size and location
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07b37d7459e9186235b0f93e7c7eab0c, actions {actions=[org.openqa.selenium.interactions.Sequence@44f24a20]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\shahn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55197/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07b37d7459e9186235b0f93e7c7eab0c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at utils.SeleniumCommonFunction.ScrollToElement(SeleniumCommonFunction.java:49)
+	at pages.ContactusPage.enterJob(ContactusPage.java:91)
+	at steps.ContactusPageSteps.userEnterJobRole(ContactusPageSteps.java:47)
+	at ✽.user enter job role(file:///C:/tendable-com/src/test/resources/features/contactus.feature:13)
+</textarea>
+										</td>
+									</tr>
+									<tr>
+										<td>Feb 19, 2024 11:39:17 am</td>
+										<td class='linked' test-id='109'>And user enter job role</td>
+										<td>
+											<textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLOptionElement] has no size and location
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07b37d7459e9186235b0f93e7c7eab0c, actions {actions=[org.openqa.selenium.interactions.Sequence@44f24a20]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\shahn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55197/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07b37d7459e9186235b0f93e7c7eab0c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at utils.SeleniumCommonFunction.ScrollToElement(SeleniumCommonFunction.java:49)
+	at pages.ContactusPage.enterJob(ContactusPage.java:91)
+	at steps.ContactusPageSteps.userEnterJobRole(ContactusPageSteps.java:47)
+	at ✽.user enter job role(file:///C:/tendable-com/src/test/resources/features/contactus.feature:13)
 </textarea>
 										</td>
 									</tr>
@@ -929,25 +1403,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>92</div>
+					<div class='panel-lead'>98</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Feb 17, 2024 03:52:25 pm</div>
+					<div class='panel-lead'>Feb 19, 2024 11:38:22 am</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Feb 17, 2024 03:54:24 pm</div>
+			 		<div class='panel-lead'>Feb 19, 2024 11:39:17 am</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>00 01 58.823</div>
+					<div class='panel-lead'>00 00 54.877</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -996,20 +1470,20 @@
 						</tr>
 						<tr>
 							<td>@Contactusverify</td>
-							<td>6</td>
-							<td>1</td>
+							<td>0</td>
+							<td>7</td>
 							<td>0</td>
 							<td>
-									85.714%
+									0%
 							</td>
 						</tr>
 						<tr>
 							<td>@Contactus</td>
-							<td>6</td>
-							<td>1</td>
+							<td>0</td>
+							<td>7</td>
 							<td>0</td>
 							<td>
-									85.714%
+									0%
 							</td>
 						</tr>
 					</table>
@@ -1031,27 +1505,27 @@
 				warningParent: 0,
 				skipParent: 0,
 				childCount: 7,
-				passChild: 6,
-				failChild: 1,
+				passChild: 0,
+				failChild: 7,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				grandChildCount: 92,
-				passGrandChild: 91,
-				failGrandChild: 1,
+				grandChildCount: 98,
+				passGrandChild: 63,
+				failGrandChild: 7,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 0,
+				skipGrandChild: 28,
 				infoGrandChild: 0,
 			};
 			</script>
 		
 		<script>
 			var timeline = {
-			        "Contact us feature verification":118.381
+			        "Contact us feature verification":54.397
 			};
 		</script>
 		
