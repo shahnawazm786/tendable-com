@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba34f941-d515-4d47-a191-7d1200f040c5" name="Changes" comment="tendable.com">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/extent. properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +306,98 @@
       <option name="project" value="LOCAL" />
       <updated>1708164865855</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="tendable.com">
+      <created>1708165970232</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1708165970232</updated>
+    </task>
+    <task id="LOCAL-00034" summary="tendable.com">
+      <created>1708165973149</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1708165973149</updated>
+    </task>
+    <task id="LOCAL-00035" summary="tendable.com">
+      <created>1708165975983</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1708165975983</updated>
+    </task>
+    <task id="LOCAL-00036" summary="tendable.com">
+      <created>1708165981028</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1708165981028</updated>
+    </task>
+    <task id="LOCAL-00037" summary="tendable.com">
+      <created>1708165983887</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1708165983887</updated>
+    </task>
+    <task id="LOCAL-00038" summary="tendable.com">
+      <created>1708165987114</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1708165987114</updated>
+    </task>
+    <task id="LOCAL-00039" summary="tendable.com">
+      <created>1708165994252</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1708165994252</updated>
+    </task>
+    <task id="LOCAL-00040" summary="tendable.com">
+      <created>1708166000522</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1708166000522</updated>
+    </task>
+    <task id="LOCAL-00041" summary="tendable.com">
+      <created>1708166005541</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1708166005541</updated>
+    </task>
+    <task id="LOCAL-00042" summary="tendable.com">
+      <created>1708166014509</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1708166014509</updated>
+    </task>
+    <task id="LOCAL-00043" summary="tendable.com">
+      <created>1708166017011</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1708166017011</updated>
+    </task>
+    <task id="LOCAL-00044" summary="tendable.com">
+      <created>1708166022916</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1708166022916</updated>
+    </task>
+    <task id="LOCAL-00045" summary="tendable.com">
+      <created>1708166026723</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1708166026723</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
