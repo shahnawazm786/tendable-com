@@ -22,5 +22,5 @@ Feature: Contact us feature verification
     |        Jenny||        Yahoo||      4556789234||||||Sorry, there was an error submitting the form. Please try again.|
     |        Jenny||        Yahoo||      ||||||Sorry, there was an error submitting the form. Please try again.|
     |        Jenny||        ||      ||||||Sorry, there was an error submitting the form. Please try again.|
-    #|        ||        ||      ||||||Sorry, there was an error submitting the form. Please try again.|
+    |        ||        ||      ||||||Sorry, there was an error submitting the form. Please try again.|
     #|        John||        Gmail||      9198789678||john@gmail.com||1234-A, Mumbai||No data found|
