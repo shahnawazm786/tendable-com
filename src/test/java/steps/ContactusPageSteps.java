@@ -44,7 +44,7 @@ public class ContactusPageSteps {
 
     @And("user enter job role")
     public void userEnterJobRole() {
-        //contact.enterJob();
+        contact.enterJob();
     }
 
     @And("user enter {string} in text area")
