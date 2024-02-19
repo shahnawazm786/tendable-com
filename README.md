@@ -1,10 +1,12 @@
 This project is for assessment test
 This project developed using following technology
+**
 * Java-17
 * Selenium 4.17.0
 * Junit - 4
 * Cucumber - 7.15.0
 * Spark Extent Report -7
+**
 
  To run this application
  Browse - MyRunner.java file which is under the src/test/java/runners
