@@ -18,7 +18,7 @@ Feature: Contact us feature verification
     Examples:
     |fullname||organization||phonenumber||email||message||error|
     |        John||        Gmail||      9198789678||john@gmail.com||1234-A, Mumbai||Form has been submitted successfully!|
-    #|        Jenny||        Yahoo||      4556789234||jenny@yahoo.com||||Sorry, there was an error submitting the form. Please try again.|
+    |        Jenny||        Yahoo||      4556789234||jenny@yahoo.com||||Sorry, there was an error submitting the form. Please try again.|
     #|        Jenny||        Yahoo||      4556789234||||||Sorry, there was an error submitting the form. Please try again.|
     #|        Jenny||        Yahoo||      ||||||Sorry, there was an error submitting the form. Please try again.|
     #|        Jenny||        ||      ||||||Sorry, there was an error submitting the form. Please try again.|
