@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba34f941-d515-4d47-a191-7d1200f040c5" name="Changes" comment="tendable.com">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/technical/EvenStringReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,20 @@
       <recent name="C:\tendable-com\src\test\resources\drivers\chrome" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.EvenStringReverse">
+    <configuration name="EvenStringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="technical.EvenStringReverse" />
+      <module name="tendable-com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="technical.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyRunners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tendable-com" />
       <extension name="coverage">
@@ -69,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EvenStringReverse" />
         <item itemvalue="JUnit.MyRunners" />
       </list>
     </recent_temporary>
@@ -81,27 +96,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708148472540</updated>
-    </task>
-    <task id="LOCAL-00047" summary="tendable.com">
-      <created>1708319049897</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1708319049897</updated>
-    </task>
-    <task id="LOCAL-00048" summary="tendable.com">
-      <created>1708319085024</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1708319085024</updated>
-    </task>
-    <task id="LOCAL-00049" summary="tendable.com">
-      <created>1708319088894</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1708319088894</updated>
     </task>
     <task id="LOCAL-00050" summary="tendable.com">
       <created>1708322880578</created>
@@ -425,7 +419,28 @@
       <option name="project" value="LOCAL" />
       <updated>1708325592974</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="tendable.com">
+      <created>1708325654462</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1708325654462</updated>
+    </task>
+    <task id="LOCAL-00097" summary="tendable.com">
+      <created>1708325818661</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1708325818661</updated>
+    </task>
+    <task id="LOCAL-00098" summary="tendable.com">
+      <created>1708325877080</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1708325877080</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
