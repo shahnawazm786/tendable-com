@@ -1,5 +1,8 @@
 package org.example;
 
+import java.util.Arrays;
+import java.util.Objects;
+
 public class StringExample {
     public static void main(String[] args) {
         String first="nmkKLMO";
@@ -7,7 +10,9 @@ public class StringExample {
         StringBuilder builder=new StringBuilder();
         builder.append(first);
         builder.append(second);
-        System.out.println(arrangeString(builder.toString()));
+        //System.out.println(arrangeString(builder.toString()));
+
+        reverseString("java is high level programming language");
     }
     static String arrangeString(String name){
         StringBuffer buffer=new StringBuffer();
@@ -22,5 +27,12 @@ public class StringExample {
             }
         }
         return buffer.toString();
+    }
+    public static void reverseString(String sentence){
+        for(Object word : Arrays.stream(sentence.split(" ")).toArray())
+        {
+            System.out.println(word.toString());
+        }
+        //return "";
     }
 }
