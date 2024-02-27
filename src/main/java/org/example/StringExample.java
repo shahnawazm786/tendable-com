@@ -69,5 +69,12 @@ public class StringExample {
         System.out.println("Total : " + senLength);
         System.out.println("Charcter count : "+ (senLength - cntOfChar));
     }
+    static void countCharacterSecondWay(String sentence, char c){
+        int senLength=sentence.length();
+        int cntOfChar=sentence.replace(String.valueOf(c),"").length();
+        System.out.println("Character count : " + cntOfChar);
+        System.out.println("Total : " + senLength);
+        System.out.println("Charcter count : "+ (senLength - cntOfChar));
+    }
 
 }
