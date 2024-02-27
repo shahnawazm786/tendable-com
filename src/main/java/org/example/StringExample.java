@@ -1,17 +1,14 @@
 package org.example;
 
 import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
-import java.util.stream.Stream;
 
 public class StringExample {
     public static void main(String[] args) {
-        String first="nmkKLMO";
-        String second="PQRTVioj";
-        StringBuilder builder=new StringBuilder();
-        builder.append(first);
-        builder.append(second);
+      //  String first="nmkKLMO";
+      //  String second="PQRTVioj";
+      //  StringBuilder builder=new StringBuilder();
+      //  builder.append(first);
+      //  builder.append(second);
         //System.out.println(arrangeString(builder.toString()));
 
         reverseString("java is high level programming language");
