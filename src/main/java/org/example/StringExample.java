@@ -13,7 +13,7 @@ public class StringExample {
 
         reverseString("java is high level programming language");
         shiftZeroAtRight("abc0deKL0M0N");
-        countCharacterFirstWay("java",'j');
+        countCharacterFirstWay("java",'a');
     }
     static String arrangeString(String name){
         StringBuffer buffer=new StringBuffer();
@@ -64,7 +64,7 @@ public class StringExample {
     }
     static void countCharacterFirstWay(String sentence, char c){
     int senLength=sentence.length();
-    int cntOfChar=sentence.replace(c,' ').length();
+    int cntOfChar=sentence.replace(String.valueOf(c),"").length();
         System.out.println("Character count : " + cntOfChar);
         System.out.println("Total : " + senLength);
         System.out.println("Charcter count : "+ (senLength - cntOfChar));
