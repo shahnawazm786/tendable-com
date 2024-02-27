@@ -1,6 +1,8 @@
 package org.example;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class StringExample {
     public static void main(String[] args) {
@@ -15,6 +17,7 @@ public class StringExample {
         shiftZeroAtRight("abc0deKL0M0N");
         countCharacterFirstWay("java",'a');
         countCharacterSecondWay("java is program",'a');
+        countCharacter("java is programming language java is high level language");
     }
     static String arrangeString(String name){
         StringBuffer buffer=new StringBuffer();
@@ -80,6 +83,14 @@ public class StringExample {
         System.out.println("Count is : "+count );
     }
     static void countCharacter(String sentence){
-
+        Map<Character,Integer> map=new HashMap<>();
+    for(char c:sentence.toCharArray()){
+        if(map.containsKey(c) ){
+            map.put(c,map.get(c)+1);
+            }
+            else if(c!= ' ')
+                map.put(c,1);
+        }
+        System.out.println(map);
     }
 }
