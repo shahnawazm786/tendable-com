@@ -29,10 +29,24 @@ public class StringExample {
         return buffer.toString();
     }
     public static void reverseString(String sentence){
+        StringBuilder rev=new StringBuilder();
+        int j=0;
         for(Object word : Arrays.stream(sentence.split(" ")).toArray())
         {
-            System.out.println(word.toString());
+            if(j%2==1){
+                for(int k=word.toString().length()-1;k>=0;k--){
+                    rev.append(word.toString().charAt(k));
+                }
+            }
+            else {
+                rev.append(word);
+            }
+            j++;
+            rev.append(" ");
+
+
         }
+        System.out.println(rev);
         //return "";
     }
 }
