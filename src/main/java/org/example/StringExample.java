@@ -12,6 +12,7 @@ public class StringExample {
         //System.out.println(arrangeString(builder.toString()));
 
         reverseString("java is high level programming language");
+        shiftZeroAtRight("abc0deKL0M0N");
     }
     static String arrangeString(String name){
         StringBuffer buffer=new StringBuffer();
@@ -46,7 +47,19 @@ public class StringExample {
         System.out.println(rev);
     }
     static void shiftZeroAtRight(String sentence){
+        //abc0deKL0M0N
+        StringBuilder builder=new StringBuilder();
+        int j=0;
+        for(char c:sentence.toCharArray()){
+            if(c=='0'){
+                j++;
+            }else {builder.append(c);
+            }
 
+        }
+
+        builder.append("0".repeat(j));
+        System.out.println(builder);
     }
 
 }
