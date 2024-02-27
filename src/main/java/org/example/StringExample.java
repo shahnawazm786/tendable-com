@@ -1,7 +1,9 @@
 package org.example;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Objects;
+import java.util.stream.Stream;
 
 public class StringExample {
     public static void main(String[] args) {
@@ -45,6 +47,9 @@ public class StringExample {
             rev.append(" ");
         }
         System.out.println(rev);
+    }
+    static void shiftZeroAtRight(String sentence){
+
     }
 
 }
