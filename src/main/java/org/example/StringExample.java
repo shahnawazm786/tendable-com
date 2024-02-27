@@ -43,8 +43,6 @@ public class StringExample {
             }
             j++;
             rev.append(" ");
-
-
         }
         System.out.println(rev);
         //return "";
