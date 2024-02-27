@@ -61,5 +61,8 @@ public class StringExample {
         builder.append("0".repeat(j));
         System.out.println(builder);
     }
+    public void countCharacter(String sentence, char c){
+
+    }
 
 }
