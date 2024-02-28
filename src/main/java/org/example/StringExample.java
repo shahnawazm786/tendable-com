@@ -104,6 +104,6 @@ public class StringExample {
                 .distinct().boxed()
                 .sorted(Comparator.naturalOrder()).skip(1)
                 .findFirst();
-        System.out.println(lowest);
+        System.out.println( lowest.get());
     }
 }
