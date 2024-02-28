@@ -17,6 +17,7 @@ public class StringExample {
         countCharacterSecondWay("java is program",'a');
         countCharacter("java is programming language java is high level language");
         findNthHighestNumber(new int[]{10,15,7,40});
+        findNthLowestNumber(new int[]{10,15,7,40});
     }
     static String arrangeString(String name){
         StringBuffer buffer=new StringBuffer();
@@ -97,7 +98,8 @@ public class StringExample {
                 .distinct().boxed()
                 .sorted(Comparator.reverseOrder()).skip(2)
                         .findFirst();
-        System.out.println(secondHighest);
+        System.out.println(secondHighest.get());
+
     }
     static void findNthLowestNumber(int[] numbers){
         Optional<Integer> lowest = Arrays.stream(numbers)
