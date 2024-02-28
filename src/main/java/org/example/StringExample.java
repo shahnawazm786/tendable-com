@@ -1,8 +1,6 @@
 package org.example;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class StringExample {
     public static void main(String[] args) {
@@ -18,6 +16,7 @@ public class StringExample {
         countCharacterFirstWay("java",'a');
         countCharacterSecondWay("java is program",'a');
         countCharacter("java is programming language java is high level language");
+        findNthHighestNumber(new int[]{10,15,7,40});
     }
     static String arrangeString(String name){
         StringBuffer buffer=new StringBuffer();
@@ -92,5 +91,12 @@ public class StringExample {
                 map.put(c,1);
         }
         System.out.println(map);
+    }
+    static void findNthHighestNumber(int[] numbers){
+        Optional<Integer> secondHighest = Arrays.stream(numbers)
+                .distinct().boxed()
+                .sorted(Comparator.reverseOrder()).skip(2)
+                        .findFirst();
+        System.out.println(secondHighest);
     }
 }
