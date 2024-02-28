@@ -99,4 +99,11 @@ public class StringExample {
                         .findFirst();
         System.out.println(secondHighest);
     }
+    static void findNthLowestNumber(int[] numbers){
+        Optional<Integer> lowest = Arrays.stream(numbers)
+                .distinct().boxed()
+                .sorted(Comparator.naturalOrder()).skip(1)
+                .findFirst();
+        System.out.println(lowest);
+    }
 }
