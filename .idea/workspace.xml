@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba34f941-d515-4d47-a191-7d1200f040c5" name="Changes" comment="tendable.com">
+      <change afterPath="$PROJECT_DIR$/src/main/java/OccuranceCharacterIntoString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
       <recent name="C:\tendable-com\src\test\resources\drivers\chrome" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringExample">
+  <component name="RunManager" selected="Application.OccuranceCharacterIntoString">
     <configuration name="EvenStringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="technical.EvenStringReverse" />
       <module name="tendable-com" />
@@ -61,6 +62,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OccuranceCharacterIntoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OccuranceCharacterIntoString" />
+      <module name="tendable-com" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OccuranceCharacterIntoString" />
         <item itemvalue="Application.StringExample" />
         <item itemvalue="Application.EvenStringReverse" />
         <item itemvalue="JUnit.MyRunners" />
@@ -109,13 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708148472540</updated>
-    </task>
-    <task id="LOCAL-00095" summary="tendable.com">
-      <created>1708325592974</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1708325592974</updated>
     </task>
     <task id="LOCAL-00096" summary="tendable.com">
       <created>1708325654462</created>
@@ -453,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709109485522</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="tendable.com">
+      <created>1709127739561</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1709127739561</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
