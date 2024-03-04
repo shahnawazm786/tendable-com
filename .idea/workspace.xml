@@ -116,13 +116,6 @@
       <option name="presentableId" value="Default" />
       <updated>1708148472540</updated>
     </task>
-    <task id="LOCAL-00099" summary="tendable.com">
-      <created>1708424277335</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1708424277335</updated>
-    </task>
     <task id="LOCAL-00100" summary="tendable.com">
       <created>1708424281580</created>
       <option name="number" value="00100" />
@@ -459,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709350304346</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="tendable.com">
+      <created>1709370220088</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1709370220088</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
