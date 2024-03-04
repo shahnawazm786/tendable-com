@@ -1,6 +1,8 @@
 package org.example;
 
 import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class StringExample {
     public static void main(String[] args) {
@@ -18,6 +20,7 @@ public class StringExample {
         countCharacter("java is programming language java is high level language");
         findNthHighestNumber(new int[]{10,15,7,40});
         findNthLowestNumber(new int[]{10,15,7,40});
+        findTheDifferenceInTwoIntegerArray(new Integer[]{1,2,3,2,1},new Integer[]{1,2,3,4});
     }
     static String arrangeString(String name){
         StringBuffer buffer=new StringBuffer();
@@ -107,5 +110,27 @@ public class StringExample {
                 .sorted(Comparator.naturalOrder()).skip(1)
                 .findFirst();
         System.out.println( lowest.get());
+    }
+    static void findTheDifferenceInTwoIntegerArray(Integer[] arr1,Integer[] arr2){
+        System.out.println("================================================");
+        System.out.println("Find The Difference In Two Integer Arrays");
+        HashSet<Integer> set1=new HashSet<>(Arrays.asList(arr1));
+        boolean isContainsAll = set1.containsAll(Arrays.asList(arr2));
+
+        if(isContainsAll){
+            System.out.println("Exist");
+        }
+        else
+        {
+            System.out.println("Not Exist");
+        }
+
+
+    }
+    static void findTheDifferenceInTwoIntegerArray001(Integer[] arr1,Integer[] arr2){
+        System.out.println("================================================");
+        System.out.println("Find The Difference In Two Integer Arrays -> Second Way");
+
+
     }
 }
