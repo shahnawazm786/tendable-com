@@ -130,7 +130,12 @@ public class StringExample {
     static void findTheDifferenceInTwoIntegerArray001(Integer[] arr1,Integer[] arr2){
         System.out.println("================================================");
         System.out.println("Find The Difference In Two Integer Arrays -> Second Way");
-
+        Set<Integer> set1=new HashSet<>();
+        set1=Arrays.stream(arr1).collect(Collectors.toSet());
+        Set<Integer> set2=new HashSet<>();
+        set1=Arrays.stream(arr2).collect(Collectors.toSet());
+        Set<Integer> union=new HashSet<>(set1);
+        union.addAll(set2);
 
     }
 }
