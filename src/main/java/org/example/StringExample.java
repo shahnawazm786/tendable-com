@@ -21,6 +21,8 @@ public class StringExample {
         findNthHighestNumber(new int[]{10,15,7,40});
         findNthLowestNumber(new int[]{10,15,7,40});
         findTheDifferenceInTwoIntegerArray(new Integer[]{1,2,3,2,1},new Integer[]{1,2,3,4});
+        System.out.println("============= Count character ==================");
+        countFrequencyOfCharacterInString("abcdefabcaabbccdeflm");
     }
     static String arrangeString(String name){
         StringBuffer buffer=new StringBuffer();
@@ -146,6 +148,7 @@ public class StringExample {
         for(int i=0;i<len;i++){
             chars[i]=str.charAt(i);
             count[i]=0;
+            cnt=1;
             for(int j=i+1;j<len;j++){
                 if(str.charAt(i)==str.charAt(j)){
                     count[i]=cnt++;
