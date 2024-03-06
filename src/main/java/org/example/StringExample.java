@@ -141,26 +141,27 @@ public class StringExample {
 
     }
     static void countFrequencyOfCharacterInString(){
-        String str="ababc";
+        String str="ababcabcdef";
         int len=str.length();
         char[] chars=str.toCharArray();
         int[] count=new int[len];
-        int cnt=0;
+
         for(int i=0;i<len;i++){
-            chars[i]=str.charAt(i);
-            cnt=1;
-            count[i]=cnt;
+            count[i]=1;
 
             for(int j=i+1;j<len;j++){
-                if(str.charAt(i)==str.charAt(j)){
-                    System.out.println(cnt);
-                    count[i]=++cnt;
-                    System.out.println(cnt);
+                if(chars[i]==chars[j]){
+
+                    count[i]++;
+                    chars[j]='0';
+
                 }
             }
         }
         for(int k=0;k<chars.length;k++){
-            System.out.println(" Character : "+chars[k] +" and count is : "+count[k]);
+            if(chars[k]!='0' || chars[k]==' ') {
+                System.out.println(" Character : " + chars[k] + " and count is : " + count[k]);
+            }
         }
     }
 }
