@@ -22,7 +22,7 @@ public class StringExample {
         findNthLowestNumber(new int[]{10,15,7,40});
         findTheDifferenceInTwoIntegerArray(new Integer[]{1,2,3,2,1},new Integer[]{1,2,3,4});
         System.out.println("============= Count character ==================");
-        countFrequencyOfCharacterInString("abcdefabcaabbccdeflm");
+        countFrequencyOfCharacterInString();
     }
     static String arrangeString(String name){
         StringBuffer buffer=new StringBuffer();
@@ -140,7 +140,8 @@ public class StringExample {
         union.addAll(set2);
 
     }
-    static void countFrequencyOfCharacterInString(String str){
+    static void countFrequencyOfCharacterInString(){
+        String str="abcdefabcaabbccdeflm";
         int len=str.length();
         char[] chars=str.toCharArray();
         int[] count=new int[len];
