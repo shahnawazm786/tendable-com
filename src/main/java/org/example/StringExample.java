@@ -138,4 +138,22 @@ public class StringExample {
         union.addAll(set2);
 
     }
+    static void countFrequencyOfCharacterInString(String str){
+        int len=str.length();
+        char[] chars=str.toCharArray();
+        int[] count=new int[len];
+        int cnt=0;
+        for(int i=0;i<len;i++){
+            chars[i]=str.charAt(i);
+            count[i]=0;
+            for(int j=i+1;j<len;j++){
+                if(str.charAt(i)==str.charAt(j)){
+                    count[i]=cnt++;
+                }
+            }
+        }
+        for(int k=0;k<chars.length;k++){
+            System.out.println(" Character : "+chars[k] +" and count is : "+count[k]);
+        }
+    }
 }
