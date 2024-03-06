@@ -141,7 +141,7 @@ public class StringExample {
 
     }
     static void countFrequencyOfCharacterInString(){
-        String str="ab";
+        String str="ababc";
         int len=str.length();
         char[] chars=str.toCharArray();
         int[] count=new int[len];
@@ -153,7 +153,9 @@ public class StringExample {
 
             for(int j=i+1;j<len;j++){
                 if(str.charAt(i)==str.charAt(j)){
-                    count[i]=cnt++;
+                    System.out.println(cnt);
+                    count[i]=++cnt;
+                    System.out.println(cnt);
                 }
             }
         }
