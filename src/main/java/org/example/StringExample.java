@@ -147,8 +147,9 @@ public class StringExample {
         int cnt=0;
         for(int i=0;i<len;i++){
             chars[i]=str.charAt(i);
-            count[i]=0;
             cnt=1;
+            count[i]=cnt;
+
             for(int j=i+1;j<len;j++){
                 if(str.charAt(i)==str.charAt(j)){
                     count[i]=cnt++;
