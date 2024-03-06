@@ -159,7 +159,7 @@ public class StringExample {
             }
         }
         for(int k=0;k<chars.length;k++){
-            if(chars[k]!='0' || chars[k]==' ') {
+            if(chars[k]!='0' && chars[k]!=' ') {
                 System.out.println(" Character : " + chars[k] + " and count is : " + count[k]);
             }
         }
