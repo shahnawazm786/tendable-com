@@ -1,4 +1,4 @@
-package technical;
+package org.technical;
 
 import java.util.Arrays;
 
