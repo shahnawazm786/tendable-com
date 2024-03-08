@@ -1,3 +1,5 @@
+package org.example;
+
 public class OccuranceCharacterIntoString {
     public static void main(String[] args) {
         String str="Mohammad Shahnawaz";
