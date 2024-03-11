@@ -88,6 +88,7 @@
             <configuration>
                 <includes>**/MyRunners.java</includes>
                 <parallel>methods</parallel>
+                <threadCount>2</threadCount>
                 <useUnlimitedThreads>true</useUnlimitedThreads>
             </configuration>
         </plugin>
