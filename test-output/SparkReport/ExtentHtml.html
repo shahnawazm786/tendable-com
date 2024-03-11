@@ -49,7 +49,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Mar 10, 2024 10:38:00 pm</span>
+			<span class='label blue darken-3 suite-start-time'>Mar 10, 2024 10:55:51 pm</span>
 			</a>
 		</ul>
 	</div>
@@ -76,9 +76,9 @@
 				<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@animal</a></li>
-					<li><a href='#'>@pract</a></li>
-					<li><a href='#'>@wild</a></li>
+					<li><a href='#'>@split[flat-white:off]</a></li>
+					<li><a href='#'>@snacks</a></li>
+					<li><a href='#'>@split[flat-white:on]</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -159,7 +159,7 @@
                 </div>
                 <div class='block text-small'>
                     <span class='tooltipped' data-position='top' data-tooltip='100%'>
-                    <span class='strong'>2</span> steps passed</span>
+                    <span class='strong'>4</span> steps passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
@@ -188,8 +188,8 @@
 			<ul id='test-collection' class='test-collection'>
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Practice</span>
-						<span class='test-time'>Mar 10, 2024 10:38:00 pm</span>
+						<span class='test-name'>Drinks Rate</span>
+						<span class='test-time'>Mar 10, 2024 10:55:51 pm</span>
 						<span class='test-status right pass'>Pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -202,45 +202,55 @@
 
 <div class='scenario node' test-id='2' status='pass'>
 
-	<span class='duration right label'>00 00 04.629</span>
+	<span class='duration right label'>00 00 04.784</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Animals</div>
+		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Display available drinks</div>
 	</div>
 	
 	
 		<div class='category-list'>
-				<span class='category label'>@animal</span>
-				<span class='category label'>@pract</span>
+				<span class='category label'>@split[flat-white:off]</span>
+				<span class='category label'>@snacks</span>
 		</div>
 	
 	<ul class='steps'>
 		<li test-id='4' class='node given Pass' status='Pass'>
-			<div class="step-name" title="(steps.PracStepdefs.theFollowingAnimal(java.util.List<java.lang.String>))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given the following animal:</div>
+			<div class="step-name" title="(steps.DrinksStepdefs.theMachineIsNotEmpty())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given the machine is not empty</div>
 
 
-					<div class="node-step"><table class='markup-table table '><tr><td>Cow</td></tr><tr><td>Horse</td></tr><tr><td>Dog</td></tr><tr><td>Elephant</td></tr></table></div>
+		</li>
+		<li test-id='5' class='node then Pass' status='Pass'>
+			<div class="step-name" title="(steps.DrinksStepdefs.theFollowingDrinksShouldBeAvailable(java.util.Map<java.lang.String, java.lang.String>))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then the following drinks should be available:</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>name</td><td>price</td></tr><tr><td>espresso</td><td>1.90</td></tr><tr><td>caffe latte</td><td>2.30</td></tr></table></div>
 		</li>
 	</ul>
 </div>
-<div class='scenario node' test-id='6' status='pass'>
+<div class='scenario node' test-id='7' status='pass'>
 
-	<span class='duration right label'>00 00 04.117</span>
+	<span class='duration right label'>00 00 03.976</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Animals</div>
+		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Display available drinks (including the new experimental flat white)</div>
 	</div>
 	
 	
 		<div class='category-list'>
-				<span class='category label'>@wild</span>
-				<span class='category label'>@pract</span>
+				<span class='category label'>@snacks</span>
+				<span class='category label'>@split[flat-white:on]</span>
 		</div>
 	
 	<ul class='steps'>
-		<li test-id='8' class='node given Pass' status='Pass'>
-			<div class="step-name" title="(steps.PracStepdefs.theFollowingWildAnimal(java.util.Map<java.lang.String, java.lang.String>))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given the following wild animal:</div>
+		<li test-id='9' class='node given Pass' status='Pass'>
+			<div class="step-name" title="(steps.DrinksStepdefs.theMachineIsNotEmpty())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given the machine is not empty</div>
 
 
-					<div class="node-step"><table class='markup-table table '><tr><td>tiger</td><td>jungle</td></tr><tr><td>deer</td><td>den</td></tr><tr><td>bear</td><td>jungle</td></tr><tr><td>snake</td><td>den</td></tr></table></div>
+		</li>
+		<li test-id='10' class='node then Pass' status='Pass'>
+			<div class="step-name" title="(steps.DrinksStepdefs.theFollowingDrinksShouldBeAvailable(java.util.Map<java.lang.String, java.lang.String>))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then the following drinks should be available:</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>name</td><td>price</td></tr><tr><td>espresso</td><td>1.90</td></tr><tr><td>flat white</td><td>2.10</td></tr><tr><td>caffe latte</td><td>2.30</td></tr></table></div>
 		</li>
 	</ul>
 </div>
@@ -288,7 +298,7 @@
 			<ul id='category-collection' class='category-collection'>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@animal</span>
+						<span class='category-name'>@split[flat-white:off]</span>
 						<span class='category-status right'>
 						<span class='label pass'>1</span>
 						</span>
@@ -310,8 +320,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 10, 2024 10:38:00 pm</td>
-										<td class='linked' test-id='2'>Animals</td>
+										<td>Mar 10, 2024 10:55:51 pm</td>
+										<td class='linked' test-id='2'>Display available drinks</td>
 										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 								</tbody>
@@ -321,7 +331,7 @@
 				</li>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@pract</span>
+						<span class='category-name'>@snacks</span>
 						<span class='category-status right'>
 						<span class='label pass'>2</span>
 						</span>
@@ -343,13 +353,13 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 10, 2024 10:38:00 pm</td>
-										<td class='linked' test-id='2'>Animals</td>
+										<td>Mar 10, 2024 10:55:51 pm</td>
+										<td class='linked' test-id='2'>Display available drinks</td>
 										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 10, 2024 10:38:05 pm</td>
-										<td class='linked' test-id='6'>Animals</td>
+										<td>Mar 10, 2024 10:55:56 pm</td>
+										<td class='linked' test-id='7'>Display available drinks (including the new experimental flat white)</td>
 										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 								</tbody>
@@ -359,7 +369,7 @@
 				</li>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@wild</span>
+						<span class='category-name'>@split[flat-white:on]</span>
 						<span class='category-status right'>
 						<span class='label pass'>1</span>
 						</span>
@@ -381,8 +391,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 10, 2024 10:38:05 pm</td>
-										<td class='linked' test-id='6'>Animals</td>
+										<td>Mar 10, 2024 10:55:56 pm</td>
+										<td class='linked' test-id='7'>Display available drinks (including the new experimental flat white)</td>
 										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 								</tbody>
@@ -419,25 +429,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>2</div>
+					<div class='panel-lead'>4</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Mar 10, 2024 10:38:00 pm</div>
+					<div class='panel-lead'>Mar 10, 2024 10:55:51 pm</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Mar 10, 2024 10:38:09 pm</div>
+			 		<div class='panel-lead'>Mar 10, 2024 10:56:00 pm</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>00 00 09.199</div>
+					<div class='panel-lead'>00 00 09.193</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -485,7 +495,7 @@
 							<th>Passed %</th>
 						</tr>
 						<tr>
-							<td>@animal</td>
+							<td>@split[flat-white:off]</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -494,7 +504,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>@pract</td>
+							<td>@snacks</td>
 							<td>2</td>
 							<td>0</td>
 							<td>0</td>
@@ -503,7 +513,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>@wild</td>
+							<td>@split[flat-white:on]</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -537,8 +547,8 @@
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				grandChildCount: 2,
-				passGrandChild: 2,
+				grandChildCount: 4,
+				passGrandChild: 4,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
@@ -550,7 +560,7 @@
 		
 		<script>
 			var timeline = {
-			        "Practice":8.758
+			        "Drinks Rate":8.769
 			};
 		</script>
 		
