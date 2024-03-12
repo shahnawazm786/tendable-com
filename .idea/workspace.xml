@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba34f941-d515-4d47-a191-7d1200f040c5" name="Changes" comment="tendable.com" />
+    <list default="true" id="ba34f941-d515-4d47-a191-7d1200f040c5" name="Changes" comment="tendable.com">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sqlserver/SQLExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,13 +54,13 @@
       <recent name="C:\tendable-com\src\test\resources\drivers\chrome" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyRunners">
-    <configuration name="StringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.StringExample" />
+  <component name="RunManager" selected="Application.SQLExample">
+    <configuration name="SQLExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sqlserver.SQLExample" />
       <module name="tendable-com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.sqlserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SQLExample" />
         <item itemvalue="JUnit.MyRunners" />
         <item itemvalue="Cucumber Java.Scenario: Display available drinks" />
         <item itemvalue="Cucumber Java.Feature: coffee" />
         <item itemvalue="Cucumber Java.Scenario: Animals" />
-        <item itemvalue="Application.StringExample" />
       </list>
     </recent_temporary>
   </component>
@@ -156,20 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708148472540</updated>
-    </task>
-    <task id="LOCAL-00213" summary="tendable.com">
-      <created>1710147113996</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1710147113996</updated>
-    </task>
-    <task id="LOCAL-00214" summary="tendable.com">
-      <created>1710147117644</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1710147117644</updated>
     </task>
     <task id="LOCAL-00215" summary="tendable.com">
       <created>1710147121352</created>
@@ -500,7 +490,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710234074067</updated>
     </task>
-    <option name="localTasksCounter" value="262" />
+    <task id="LOCAL-00262" summary="tendable.com">
+      <created>1710235455490</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1710235455490</updated>
+    </task>
+    <task id="LOCAL-00263" summary="tendable.com">
+      <created>1710235484093</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1710235484093</updated>
+    </task>
+    <option name="localTasksCounter" value="264" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
