@@ -79,6 +79,13 @@
             <version>2.22.2</version>
         </dependency>
 
+        <!-- SQL Server connection dependency -->
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>8.2.1.jre11</version>
+        </dependency>
+
     </dependencies>
     <build>
     <plugins>
