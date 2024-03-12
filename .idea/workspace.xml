@@ -7,11 +7,6 @@
     <list default="true" id="ba34f941-d515-4d47-a191-7d1200f040c5" name="Changes" comment="tendable.com">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/embedded1.png" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Screenshots/embedded1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/SparkReport/ExtentHtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SparkReport/ExtentHtml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/SparkReport/ExtentPdf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SparkReport/ExtentPdf.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/SparkReport/Spark.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SparkReport/Spark.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/cucumber-reports/cucumberreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/cucumber-reports/cucumberreport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,55 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708148472540</updated>
-    </task>
-    <task id="LOCAL-00189" summary="tendable.com">
-      <created>1710139783330</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1710139783330</updated>
-    </task>
-    <task id="LOCAL-00190" summary="tendable.com">
-      <created>1710139787667</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1710139787667</updated>
-    </task>
-    <task id="LOCAL-00191" summary="tendable.com">
-      <created>1710139793612</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1710139793612</updated>
-    </task>
-    <task id="LOCAL-00192" summary="tendable.com">
-      <created>1710139799635</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1710139799635</updated>
-    </task>
-    <task id="LOCAL-00193" summary="tendable.com">
-      <created>1710139805618</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1710139805618</updated>
-    </task>
-    <task id="LOCAL-00194" summary="tendable.com">
-      <created>1710139809222</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1710139809222</updated>
-    </task>
-    <task id="LOCAL-00195" summary="tendable.com">
-      <created>1710139813693</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1710139813693</updated>
     </task>
     <task id="LOCAL-00196" summary="tendable.com">
       <created>1710139818585</created>
@@ -508,7 +454,56 @@
       <option name="project" value="LOCAL" />
       <updated>1710225971822</updated>
     </task>
-    <option name="localTasksCounter" value="238" />
+    <task id="LOCAL-00238" summary="tendable.com">
+      <created>1710227002355</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1710227002355</updated>
+    </task>
+    <task id="LOCAL-00239" summary="tendable.com">
+      <created>1710227005881</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1710227005881</updated>
+    </task>
+    <task id="LOCAL-00240" summary="tendable.com">
+      <created>1710227012443</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1710227012443</updated>
+    </task>
+    <task id="LOCAL-00241" summary="tendable.com">
+      <created>1710227016466</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1710227016466</updated>
+    </task>
+    <task id="LOCAL-00242" summary="tendable.com">
+      <created>1710227021284</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1710227021284</updated>
+    </task>
+    <task id="LOCAL-00243" summary="tendable.com">
+      <created>1710227033072</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1710227033072</updated>
+    </task>
+    <task id="LOCAL-00244" summary="tendable.com">
+      <created>1710227037231</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1710227037231</updated>
+    </task>
+    <option name="localTasksCounter" value="245" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
