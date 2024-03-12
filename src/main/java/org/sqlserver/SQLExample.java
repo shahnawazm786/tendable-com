@@ -24,6 +24,7 @@ public class SQLExample {
             System.out.println("Driver version: " + dm.getDriverVersion());
             System.out.println("Product name: " + dm.getDatabaseProductName());
             System.out.println("Product version: " + dm.getDatabaseProductVersion());
+
         }
     }
 }
