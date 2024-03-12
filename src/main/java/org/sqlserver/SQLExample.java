@@ -1,9 +1,6 @@
 package org.sqlserver;
 
-import java.sql.Connection;
-import java.sql.DatabaseMetaData;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class SQLExample {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
@@ -24,7 +21,14 @@ public class SQLExample {
             System.out.println("Driver version: " + dm.getDriverVersion());
             System.out.println("Product name: " + dm.getDatabaseProductName());
             System.out.println("Product version: " + dm.getDatabaseProductVersion());
-
+            Statement statement= conn.createStatement();
+            String query="Select * from TBL_Employee";
+            ResultSet resultSet= statement.executeQuery(query);
+            while (resultSet.next()){
+                System.out.println("ID : ->\t"+resultSet.getInt(1));
+                System.out.println("Name : ->\t"+resultSet.getString(2));
+                System.out.println("Salary : ->\t"+resultSet.getBigDecimal(3));
+            }
         }
     }
 }
