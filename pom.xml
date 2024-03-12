@@ -16,6 +16,7 @@
         <maven.surefire.plugin.version>3.2.1</maven.surefire.plugin.version>
         <maven.compiler.source.version>17</maven.compiler.source.version>
         <maven.compiler.target.version>17</maven.compiler.target.version>
+        <forks-count>3</forks-count>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -90,6 +91,20 @@
                 <parallel>methods</parallel>
                 <threadCount>2</threadCount>
                 <useUnlimitedThreads>true</useUnlimitedThreads>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-failsafe-plugin</artifactId>
+            <version>3.2.5</version>
+            <configuration>
+                <parallel>methods</parallel> <!--class, all, methodandclass -->
+                <useUnlimitedThreads>true</useUnlimitedThreads>
+                <useSystemClassLoader>false</useSystemClassLoader>
+                <threadCount>2</threadCount>
+                <forkCount>2.0C</forkCount>
+                <reuseForks>true</reuseForks>
+
             </configuration>
         </plugin>
     </plugins>
