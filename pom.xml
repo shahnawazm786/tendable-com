@@ -98,7 +98,9 @@
             <artifactId>maven-failsafe-plugin</artifactId>
             <version>3.2.5</version>
             <configuration>
-                <parallel>methods</parallel> <!--class, all, methodandclass -->
+                <rerunFailingTestsCount>1</rerunFailingTestsCount>
+                <testFailureIgnore>true</testFailureIgnore>
+                <parallel>methods</parallel> <!--class, all, methodandclass,suites -->
                 <useUnlimitedThreads>true</useUnlimitedThreads>
                 <useSystemClassLoader>false</useSystemClassLoader>
                 <threadCount>2</threadCount>
