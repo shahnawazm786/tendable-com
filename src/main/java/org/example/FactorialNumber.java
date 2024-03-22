@@ -12,18 +12,20 @@ public class FactorialNumber {
         int fact=1;
         while(number>0){
             num=number%10;
-            for(int i=1;i<num;i++){
+            for(int i=1;i<=num;i++){
                 //3 - 1*2*3
                 //1*1 = 1
                 // 1*2*3*4 = 24
                 // 1*2*3*4 *5 = 120
                 fact=fact*i;
             }
+
             number=number/10;
-            System.out.println(num);
-            System.out.println(fact);
+            System.out.println(num + " number and the factorial : "+fact );
+            //System.out.println(fact);
             System.out.println(strongNumber);
             strongNumber=strongNumber+fact;
+            fact=1;
 
         }
         System.out.println(strongNumber);
