@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba34f941-d515-4d47-a191-7d1200f040c5" name="Changes" comment="tendable.com">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AscendingOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FactorialNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TypeCasteExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/problem/students/UploadFileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12-03-2024_14_54_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12-03-2024_14_54__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FactorialNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FactorialNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
       <recent name="C:\tendable-com\src\test\resources\drivers\chrome" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FactorialNumber">
+  <component name="RunManager" selected="Application.UploadFileExample">
     <configuration name="AscendingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AscendingOrder" />
       <module name="tendable-com" />
@@ -108,28 +109,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyRunners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UploadFileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.problem.students.UploadFileExample" />
       <module name="tendable-com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="org.problem.students.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.MyRunners" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UploadFileExample" />
         <item itemvalue="Application.FactorialNumber" />
         <item itemvalue="Application.AscendingOrder" />
         <item itemvalue="Application.OccuranceCharacterIntoString" />
         <item itemvalue="Application.SQLExample" />
-        <item itemvalue="JUnit.MyRunners" />
       </list>
     </recent_temporary>
   </component>
@@ -141,34 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708148472540</updated>
-    </task>
-    <task id="LOCAL-00223" summary="tendable.com">
-      <created>1710155729115</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
-      <option name="project" value="LOCAL" />
-      <updated>1710155729115</updated>
-    </task>
-    <task id="LOCAL-00224" summary="tendable.com">
-      <created>1710155735025</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1710155735025</updated>
-    </task>
-    <task id="LOCAL-00225" summary="tendable.com">
-      <created>1710155739473</created>
-      <option name="number" value="00225" />
-      <option name="presentableId" value="LOCAL-00225" />
-      <option name="project" value="LOCAL" />
-      <updated>1710155739473</updated>
-    </task>
-    <task id="LOCAL-00226" summary="tendable.com">
-      <created>1710155906746</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
-      <option name="project" value="LOCAL" />
-      <updated>1710155906746</updated>
     </task>
     <task id="LOCAL-00227" summary="tendable.com">
       <created>1710155910666</created>
@@ -485,7 +456,35 @@
       <option name="project" value="LOCAL" />
       <updated>1710253019402</updated>
     </task>
-    <option name="localTasksCounter" value="272" />
+    <task id="LOCAL-00272" summary="tendable.com">
+      <created>1710322118773</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1710322118773</updated>
+    </task>
+    <task id="LOCAL-00273" summary="tendable.com">
+      <created>1710322124995</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1710322124995</updated>
+    </task>
+    <task id="LOCAL-00274" summary="tendable.com">
+      <created>1710322130841</created>
+      <option name="number" value="00274" />
+      <option name="presentableId" value="LOCAL-00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1710322130841</updated>
+    </task>
+    <task id="LOCAL-00275" summary="tendable.com">
+      <created>1710322135903</created>
+      <option name="number" value="00275" />
+      <option name="presentableId" value="LOCAL-00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1710322135903</updated>
+    </task>
+    <option name="localTasksCounter" value="276" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
