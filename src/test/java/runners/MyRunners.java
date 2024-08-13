@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 features = "src/test/resources/features",
         glue = "steps",
-        //tags = "@snacks",
+        tags = "@snacks",
         plugin = {"pretty","html:test-output/cucumber-reports/cucumberreport.html",
                 "json:test-output/json-resports/myjson.json",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
@@ -16,4 +16,5 @@ features = "src/test/resources/features",
 
 )
 public class MyRunners {
+
 }
